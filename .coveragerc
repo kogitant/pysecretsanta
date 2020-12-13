@@ -1,0 +1,9 @@
+[run]
+omit =
+    # omit anything in a /site-packages/ directory anywhere (in Travis build path)
+    */site-packages/*
+    # omit everything in myenv/.env/.venv (in your local build path most likely)
+    myenv/*
+    venv/*
+    .venv/*
+    .env/*
